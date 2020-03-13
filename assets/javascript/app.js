@@ -1,40 +1,36 @@
-var timeLeft = 60;
+var timeLeft = 10;
 var Questions = [""]
 var rightTotal = 0;
 var wrongTotal = 0;
 var answer;
 var unanswered = 0;
+var totalQuestions;
+var timer;
+var timeLeft;
 
-function checkAnswers(){
-    //alert ("Check Answers");
-    //Question1 
-   answer = $('input[name=q1]:checked').val();
-
-alert("answer=" + answer)   
-if (answer == 4){
-    rightTotal++;       
+function startGame () {
+  timeLeft = 10;
+  timer = setInterval (showTime, 1000);
+  
 }
 
-else if (answer  == null) {
-  unanswered++;
-}
- else 
-  {wrongTotal++;}
-
-
-//Question2
-answer = $('input[name=q2]:checked').val();
-
-alert("answer=" + answer)   
-if (answer == 2){
-    rightTotal++;       
+function showTime () {
+  if (timeLeft == 0 ){
+    clearInterval(timer);
+  }
+  document.getElementById("timeLeft").innerHTML = "Time Remaining:" + timeLeft;
+  timeLeft--;
 }
 
-else if (answer  == null) {
-  unanswered++;
-}
- else 
-  {wrongTotal++;}
+
+function checkAnswers(){   
+rightTotal = $('input[value=r]:checked').length;
+wrongTotal = $('input[value=w]:checked').length;
+totalQuestions = $(':radio').length / 4; 
+unanswered = totalQuestions - rightTotal - wrongTotal;
+alert (rightTotal + " " + wrongTotal + " " + unanswered);
+
+
 
 document.getElementById("correct").innerHTML = "correct:" + rightTotal;
 document.getElementById("incorrect").innerHTML = "incorrect:" + wrongTotal;
