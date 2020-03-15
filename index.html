@@ -7,9 +7,9 @@
     <title>Ancient Trivia</title>
 </head>
 <body>
-    <h1>Ancient History Trivia!</h1>
+    <h1 id="title">Ancient History Trivia!</h1>
 
-    <button type="button" onclick="startGame()" class="largeButton">START</button>
+    <!--<button type="button" onclick="startGame()" class="largeButton">START</button>-->
 
 
  <h2 id="timeLeft">Time remaining:</h2>
@@ -94,14 +94,14 @@
 
  <br><br><br>
 
- <p>Total Answers</p>
+ <p id="totalanswers">Total Answers</p>
   <p id="correct">Correct:</p>
   
   <p id="incorrect">Incorrect:</p>
 
   <p id="unanswered">Unanswered:</p>
 
-  <button type="button" onclick="checkAnswers()" class="btn btn-outline-primary">Submit</button>
+  <button type="button" onclick="checkAnswers()" class="submit">Submit</button>
 
   <script src="assets/javascript/app.js"></script> </script>
   

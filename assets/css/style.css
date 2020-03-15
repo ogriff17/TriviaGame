@@ -1,7 +1,126 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body {
-    background-color:sandybrown;
+    background-color: cadetblue;
+    padding-top:0px;
+    background-size: 100%; 
+   
 }
+
+/*.largeButton {
+    color:Black;
+    background-color:greenyellow;
+    size: 20px;
+    padding: 20px;
+   float:center;       
+}*/
+
+#title{
+    clear:auto;
+    padding-top:-20px;
+    text-align:center;
+    color:purple;
+    font-size:50px;
+}
+
+#timeLeft {
+    text-align:center;
+    color:darkblue;
+}
+
+#Question1 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question2 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question3 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question4 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question5 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question6 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question7 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+#Question8 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question9 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#Question10 {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#totalanswers {
+    color: darkblue;
+    font-size:20px;
+    font-family: fantasy;
+}
+
+#correct {
+    color: green;
+    font-size:20px;
+    font-family:fantasy;
+}
+
+#incorrect {
+    color: red;
+    font-size:20px;
+    font-family:fantasy;
+}
+
+#unanswered {
+    color: purple;
+    font-size:20px;
+    font-family:fantasy; 
+}
+
+.submit {
+    color:Black;
+    background-color:greenyellow;
+    size: 20px;
+    padding: 20px;
+   float:center;
+}
+
+
+

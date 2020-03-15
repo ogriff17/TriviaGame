@@ -1,4 +1,4 @@
-var timeLeft = 10;
+var timeLeft = 60;
 var Questions = [""]
 var rightTotal = 0;
 var wrongTotal = 0;
@@ -9,7 +9,7 @@ var timer;
 var timeLeft;
 
 function startGame () {
-  timeLeft = 10;
+  timeLeft = 60;
   timer = setInterval (showTime, 1000);
   
 }

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: cadetblue;
+    background-image: url(../images/Egypt.jpg);
+    padding-top:0px;
+    background-size: 100%;
+}    
+
+    .largeButton {
+        font-size: 30px;
+        color:black;
+        background: green;
+        height:200px;
+        width: 400px;
+        position: absolute;
+        top:200px;
+        left:600px;
+        border-color:black;    
+    }
+
+    #triviastart {
+        border-style: solid;
+        border-color:black;
+        background-color:black;
+        border-radius: 60px ;
+        clear:auto;
+        padding-top:-20px;
+        text-align:center;
+        color:white;
+        font-size:50px;
+    }
+    
