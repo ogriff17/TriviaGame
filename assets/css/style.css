@@ -4,25 +4,30 @@
 }
 
 body {
-    background-color: cadetblue;
+    padding:200px;
     padding-top:0px;
-    background-size: 100%; 
+    background-size: 100%;
+    background-color: peru;
    
 }
 
-/*.largeButton {
+.largeButton {
     color:Black;
     background-color:greenyellow;
     size: 20px;
     padding: 20px;
-   float:center;       
-}*/
+   position:absolute; 
+   top:100px; 
+   left:200px;  
+}
 
 #title{
-    clear:auto;
     padding-top:-20px;
     text-align:center;
-    color:purple;
+    border-style: solid;
+    background-color: black;
+    border-color: black;
+    color:white;
     font-size:50px;
 }
 
@@ -31,63 +36,11 @@ body {
     color:darkblue;
 }
 
-#Question1 {
-    color: darkblue;
+.Question {
+    color: purple;
     font-size:20px;
     font-family: fantasy;
-}
-
-#Question2 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question3 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question4 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question5 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question6 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question7 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-#Question8 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question9 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
-}
-
-#Question10 {
-    color: darkblue;
-    font-size:20px;
-    font-family: fantasy;
+    
 }
 
 #totalanswers {
